@@ -40,7 +40,7 @@ export class sqlFormatterClass {
         if(text.trim()!='') {
             let textFormatted = sqlFormatter.format(text, {
                 language: "sql", // Defaults to "sql"
-                indent: "    "   // Defaults to two spaces
+                indent: "  "   // Defaults to two spaces
             });
 
             const document = editor.document;
