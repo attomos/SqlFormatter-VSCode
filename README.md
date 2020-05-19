@@ -4,6 +4,13 @@
 
 In order for the extension to work correctly, it is necessary to have NodeJS installed, since one component will be used, being _sql-formatter_.
 
+## How to build locally
+```bash
+$ npm i
+$ vsce package
+$ code --install-extension sql-formatter-2.0.0.vsix
+```
+
 # Features
 
 Performs _SQL Formatter_ to format your code using _NodeJS_ component.

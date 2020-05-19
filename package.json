@@ -2,7 +2,7 @@
     "name": "sql-formatter",
     "displayName": "SQL Formatter",
     "description": "Extension for formatter SQL code",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "icon": "images/logo.png",
     "license": "MIT",
     "publisher": "cymonk",
@@ -24,11 +24,17 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "languages": [{
-            "id": "sql",
-            "aliases": ["SQL"],
-            "extensions": ["sql"]
-        }]
+        "languages": [
+            {
+                "id": "sql",
+                "aliases": [
+                    "SQL"
+                ],
+                "extensions": [
+                    "sql"
+                ]
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
